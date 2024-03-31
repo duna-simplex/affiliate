@@ -1,0 +1,128 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffecd1; /* Just as an example */
+}
+
+/* Navigation Styles */
+nav#navbar {
+  background: #ff8b42;
+  padding: 10px;
+}
+
+nav#navbar ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav#navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav#navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+nav#navbar a:hover {
+  color: #ffecd1;
+}
+
+/* Mascot */
+.mascot {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mascot img {
+  max-width: 200px;
+  height: auto;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* About Section */
+#about {
+  background-color: #fde2c6;
+  color: #333;
+}
+
+/* Gallery Section */
+#gallery {
+  background-color: #f9d6ab;
+}
+
+/* Interactive Section */
+#interactive {
+  background-color: #f6c181;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f3ad58;
+}
+
+/* Footer */
+footer {
+  background-color: #ff8b42;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Navigation Scroll */
+nav#navbar ul {
+  padding-top: 10px;
+}
+
+nav#navbar li {
+  display: inline-block;
+}
+
+/* Progress Bar */
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 20px;
+  width: 80%;
+  margin: 20px auto;
+  padding: 3px;
+}
+
+.progress {
+  display: block;
+  height: 20px;
+  background-color: #82b1ff;
+  border-radius: 18px;
+  transition: width 0.25s ease-in-out;
+}
+
+/* Scroll Effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Sticky Progress Bar */
+.progress-bar-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+}
